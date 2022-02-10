@@ -1,6 +1,6 @@
 package com.tounga.form.config;
 
-import javax.annotation.PostConstruct;
+//import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +35,7 @@ public class SpringDBConfig {
 		return db;
 	}
 
-	@PostConstruct
+	//@PostConstruct
 	public void startDBManager() {
 
 		// hsqldb
